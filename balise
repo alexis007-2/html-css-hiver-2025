@@ -1,0 +1,6 @@
+<balise>mon contenu</balise>
+<balise>Mon contenu<autrebalise>Mon autre contenu</autrebalise></balise>
+
+<baliseorpheline>
+
+<balise monattribut="valeur"></balise>
