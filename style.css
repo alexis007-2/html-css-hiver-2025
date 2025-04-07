@@ -1,0 +1,21 @@
+p
+{
+    color:red;
+}
+
+h1
+{
+    color:blue;
+}
+
+/*Déclaration d'un selecteur d'attribut id */
+#monid
+{
+    color:yellow;    
+}
+
+/*Déclaration d'un selecteur d'attribut class */
+.maclasse
+{
+    color:green;
+}

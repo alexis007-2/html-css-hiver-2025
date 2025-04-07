@@ -1,0 +1,47 @@
+@font-face
+{
+    font-family:'Game Bubble';
+    src : url('game-bubble.ttf') format('truetype');
+}
+
+
+#header
+{
+    background-color: greenyellow;
+}
+
+a
+{
+    color : black;
+}
+/* Lorsque on passe la souris sur le lien */
+
+a:hover
+{
+    color:orange;
+    text-decoration: none;
+}
+/* Si la page a été visité */
+a:visited 
+{
+    color:#ff0080;
+}
+
+p
+{
+    color:blue;
+    font-size : 24px;
+    font-family : Verdana,sans-serif;
+    font-style:italic;
+    font-weight: bold;
+}
+
+.maclasse
+{
+    font-family: 'Game Bubble';
+}
+
+.maclasse2
+{
+    font-family :'Roboto',sans-serif;
+}
