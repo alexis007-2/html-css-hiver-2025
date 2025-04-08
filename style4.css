@@ -1,0 +1,45 @@
+body {
+  background-image: url("ciotat.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#un {
+  background-color: green;
+  border: 3px solid red;
+}
+
+#deux {
+  background: rgb(227, 105, 210);
+  background: linear-gradient(
+    90deg,
+    rgba(227, 105, 210, 1) 28%,
+    rgba(112, 175, 138, 1) 78%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border: 5px solid yellow;
+  border-radius: 10px;
+}
+
+#trois {
+  background-color: greenyellow;
+  box-shadow: 5px 5px 15px 5px #ff19bc;
+}
+
+#quatre {
+    background: rgb(144,227,105);
+    background: linear-gradient(90deg, rgba(144,227,105,1) 22%, rgba(238,94,50,1) 35%, rgba(0,212,255,1) 100%);
+    border : 5px solid green;
+    border-radius: 79% 21% 14% 86% / 30% 30% 70% 70%;
+    text-shadow: 2px 2px 2px #CE5937;
+}
+
+/*
+#quatre
+{
+    background-color: red;
+    border : 8px solid black;
+    border-radius :81% 19% 100% 0% / 30% 27% 73% 70% 
+}
+*/
