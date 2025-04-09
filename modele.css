@@ -1,0 +1,47 @@
+/* 1) Reprendre la page HTML modele.html en rajoutant trois liens à la fin de la page et appliquez les styles suivants :
+
+    • mettre les titres en bleu et italique
+    • mettre les liens en gras
+    • mettre des puces carrés à la place des puces rondes dans la liste
+    • enlevez le soulignement des liens
+    • augmentez la taille de la police du titre principal
+    • ajoutez un “cadre” autour des images (essayer plusieurs styles et plusieurs épaisseurs)
+    • Changez la couleur de fond de la page, tout en gardant un fond blanc pour les paragraphes. Vous pouvez mettre des dégradés pour le fond */
+
+    body
+    {
+        background-color: aqua;
+    }
+   
+    .para
+    {
+        background-color: aliceblue;
+    }
+
+    h1, h2
+    {
+        color: blue;
+        font-style: italic;
+    }
+    
+    h1
+    {
+        font-size: xx-large;
+    }
+
+    a
+    {
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    ul
+    {
+        list-style-type: square;
+    }
+
+    img
+    {
+        border: 3px solid red;
+    }
+    

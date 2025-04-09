@@ -1,0 +1,36 @@
+body
+{
+    background-color: #F5FCEC;
+}
+
+
+h1
+{
+    background-color: #B71135;
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2
+{
+    font-style: italic;
+}
+
+.imgfraise
+{
+    background-color:white;
+    text-align:center;
+    border:1px solid black;
+}
+
+hr
+{
+    color :#8A3645;
+}
+
+.footer
+{
+    background-color:white;
+    text-align:end;
+}

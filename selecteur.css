@@ -1,0 +1,73 @@
+/* Selecteur universel */
+*
+{
+    background-color: aliceblue;
+}
+
+/* Selecteur par balise */
+p
+{
+    color:aqua;
+}
+
+/* Selecteur par classe */
+.maclasse
+{
+    color:aquamarine;
+}
+
+/* Selecteur par id */
+
+#monid
+{
+    color :blueviolet;
+}
+
+/* Selecteur multiple */
+
+h1,h2,h3
+{
+    color :brown;
+}
+
+/* Selecteur descendant */
+h4 em
+{
+    color:chartreuse;
+}
+
+h4 strong
+{
+    color:orange;
+}
+
+#demo a
+{
+    text-decoration: none;
+    color: gray;
+}
+
+/* Selecteur enfant direct */
+#para1 > strong
+{
+    color :red;
+}
+
+/* Selecteur un voisin  */
+#mondiv+p
+{
+    color:orchid;
+}
+/* Selecteur plusieur voisin*/
+#mondiv2~p
+{
+    color:yellow;
+}
+
+/* Selecteur attribut */
+/* a[title="monlien"]*/
+a[title]
+{
+    text-decoration: none;
+    color:magenta;
+}
