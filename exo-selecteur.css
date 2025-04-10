@@ -1,0 +1,51 @@
+/*
+1) Appliquez une couleur rouge à tous les paragraphes (<p>)
+2) Appliquez une couleur bleue uniquement aux paragraphes avec la classe .special
+3) Appliquez au titre (h2) avec l’ID title une couleur verte et centré
+4) Appliquez une couleur orange aux <p> directement à l’intérieur d’un <div>
+5) Appliquez une couleur verte aux <p> dans n'importe quel élément d’un <div>
+6) Appliquez un fond gris aux <h2> et <h3>
+7) Changez la couleur du texte en violet lorsqu’on survole un <button>
+8) Mettez en gras le premier paragraphe dans le <div> de classe mondiv
+9) Appliquez un fond jaune au 3ème élément de la liste  de classe maliste.
+*/
+p
+{
+    color: red;
+}
+.special
+{
+    color: blue;
+}
+#title
+{
+    color: green;
+    text-align: center;
+}
+div > p
+{
+    color: orange;
+}
+div p
+{
+    color: green;
+}
+h2, h3
+{
+    background-color: grey;
+}
+
+button:hover
+{
+    color: violet;
+}
+
+.mondiv p:nth-child(1)
+{
+    font-weight:bolder;
+}
+
+.maliste li:nth-child(3)
+{
+    background-color: yellow;
+}
