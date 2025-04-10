@@ -1,0 +1,29 @@
+p
+{
+    color: magenta;
+}
+
+.important
+{
+    background-color:yellow;
+}
+
+#titre-principal
+{
+    font-size:34px;
+}
+
+a[target]
+{
+    border:2px solid red;
+}
+
+.liste-speciale li
+{
+    background-color: green;
+}
+
+ol>li
+{
+    color:violet;
+}
