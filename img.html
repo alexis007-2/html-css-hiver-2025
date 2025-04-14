@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Max-width Exemple</title>
+  <style>
+    .container {
+      width: 300px;
+      border: 2px solid #333;
+      padding: 10px;
+      margin-bottom: 30px;
+    }
+
+    .no-max {
+      border: 1px solid red;
+    }
+
+    .with-max {
+      border: 1px solid green;
+    }
+
+    .with-max img {
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Sans <code>max-width: 100%</code></h2>
+  <div class="container no-max">
+    <img src="france-hyeres.jpg" alt="Image grande">
+  </div>
+
+  <h2>Avec <code>max-width: 100%</code></h2>
+  <div class="container with-max">
+    <img src="france-hyeres.jpg" alt="Image grande">
+  </div>
+
+</body>
+</html>

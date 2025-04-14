@@ -1,0 +1,33 @@
+header
+{
+    background-color: burlywood;
+    border:2px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+footer
+{
+    background-color: aqua;
+    border: 2px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+section
+{
+    background-color: aquamarine;
+    border:2px solid black;
+    padding: 80px;
+}
+
+#propos
+{
+    width:50%;
+    margin:auto;
+}
