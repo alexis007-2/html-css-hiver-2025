@@ -1,0 +1,10 @@
+figure
+{
+    width: 500px;
+    border:2px solid black;
+}
+
+figure img
+{
+    max-width: 100%;
+}
