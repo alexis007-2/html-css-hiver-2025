@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>=Exo tableaux 2</title>
+    <!--
+1) Créez un tableau avec **trois colonnes** : **Nom**, **Âge**, et **Ville**.
+2) Ajoutez **quatre lignes de données**.
+3) Utilisez `<thead>` pour l’en-tête et `<tbody>` pour les données du tableau.
+4) Ajoutez une **bordure** au tableau.
+5) Mettez l’en-tête est en **gras**-->
+<style>
+    table
+    {
+        border-collapse: collapse;
+        border: red 2px solid;
+    }
+    th,td
+    {
+        border: red 2px solid;
+    padding: 15px;
+    }
+    th
+    {
+        font-style: italic;
+        font-weight: bolder;
+    }
+</style>
+</head>
+<body>
+    <table>
+        <caption>Exo tableaux 2</caption>
+        <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Âge</th>
+            <th>Ville</th>
+        </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>Tomas</td>
+        <td>23</td>
+        <td>Nime</td>
+    </tr>
+    <tr>
+        <td>Maguy</td>
+        <td>36</td>
+        <td>Paris</td>
+    </tr>
+    <tr>
+        <td>Lucie</td>
+        <td>19</td>
+        <td>Rennes</td>
+    </tr>
+    <tr>
+        <td>Tom</td>
+        <td>40</td>
+        <td>Marseille</td>
+    </tr>
+</tbody>
+    </table>
+</body>
+</html>
