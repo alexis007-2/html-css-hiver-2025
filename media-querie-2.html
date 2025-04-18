@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        @media screen and (max-width: 500px) {
+            p {
+                font-size: xx-small;
+                color: red;
+            }
+        }
+
+        @media screen and (min-width: 501px) and (max-width: 800px) {
+            p {
+                font-size: medium;
+                color: chartreuse;
+            }
+        }
+
+        @media screen and (min-width: 801px) {
+            p {
+                font-size: xx-large;
+                color: aqua;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- 1) Texte normal sur **grand écran**
+2) Texte plus petit sur **tablette (max 800px)**
+3) Texte encore plus petit sur **mobile (max 500px)** -->
+
+<div class="container">
+    <p class="element">Coucou</p>
+</div>
+</body>
+</html>
