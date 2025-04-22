@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire 4</title>
+</head>
+<body>
+ <h1>Formulaire 4</h1> 
+ <form method="post" action="#">
+    <fieldset>
+        <legend> Vos coordonnées</legend>
+        <label for="nom">Nom :</label>
+        <input type="text" name="nom" id="nom" placeholder="Votre nom"><br>
+<p>
+    Votre civilité
+    <!--Bouton radio avec les valeurs des names identiques pour sélectionner une valeur à la fois-->
+    <input type="radio" name="civilite" value="mr" id="mr"><label for="mr">Mr</label>
+    <input type="radio" name="civilite" value="mme" id="mme"><label for="mme">Mme</label>
+    <input type="radio" name="civilite" value="autre" id="autre"><label for="autre">Autre</label>
+</p>
+    </fieldset>
+    <fieldset>
+        <legend>Loisirs</legend>
+        <p>
+            Vos films préférés
+            <!--Case à coché avec des crochets aux name pour récupération de plusieurs valeurs en PHP. On peut sélectionner plusieurs valeurs à la fois-->
+            <input type="checkbox" name="film[]" value="Blues Brothers" id="Blues Brothers"><label for="Blues Brothers"> Blues Brothers</label>
+            <input type="checkbox" name="film[]" value="Titanic" id="Titanic"><label for="Titanic">Titanic</label>
+            <input type="checkbox" name="film[]" value="Big" id="Big"><label for="Big">Big</label>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Animaux</legend>
+        <label for="animal">Votre animal de compagnie</label>
+        <select name="animal" id="animal">
+            <option value="chien">Chien</option>
+            <option value="chat">Chat</option>
+            <option value="hamster">Hamster</option>
+            <option value="tortue">Tortue</option>
+        </select>
+    </fieldset>
+    <input type="submit" value="envoyer">
+ </form>  
+</body>
+</html>
