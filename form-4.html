@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Créez une page nommée form-4.html
+Créez un formulaire permettant de réserver une chambre d’hôtel avec les champs
+suivants :
+
+Nom
+Email
+Date d'arrivée (`input type="date"`)
+Nombre de nuits (`inZput type="number"`) - Ajoutez les attributs min et max
+Type de chambre (menu déroulant avec `<select>` : Simple, Double, Suite)
+Un bouton "Réserver" -->
+
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Formulaire de réservation</legend>
+        <div>
+          <label for="nom">Votre nom :</label>
+          <input type="text" name="nom" id="nom" />
+        </div>
+
+        <div>
+          <label for="mail">Votre e-mail :</label>
+          <input type="email" name="mail" id="mail" />
+        </div>
+
+        <div>
+          <label for="arrivee">Date d'arrivée :</label>
+          <input type="date" name="arrivee" id="arrivee" />
+        </div>
+
+        <div>
+          <label for="nuit">Nombres de nuits :</label>
+          <input type="number" name="nuit" id="nuit" min="1" max="365" />
+        </div>
+
+        <div>
+          <label for="chambre">Type de chambre :</label>
+          <select name="chambre" id="chambre">
+            <option value="simple">simple</option>
+            <option value="double">Double</option>
+            <option value="suite">Suite</option>
+          </select>
+        </div>
+      </fieldset>
+      <div>
+        <input type="submit" value="Réserver">
+      </div>
+    </form>
+  </body>
+</html>
